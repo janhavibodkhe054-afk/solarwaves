@@ -74,7 +74,7 @@ export default function TechnologyQualitySection() {
               </p>
             </div>
           ))}
-
+        
         </div>
       </div>
     </section>

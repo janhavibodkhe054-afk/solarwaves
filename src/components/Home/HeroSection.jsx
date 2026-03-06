@@ -61,10 +61,13 @@ export default function HeroSection() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
-            onClick={() => navigate("/contact")}
+            href="/Brochure.pdf"
+            download
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full sm:w-auto text-center px-6 sm:px-8 py-3 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg shadow-lg transition duration-300"
           >
-            Get Free Consultation
+            Download Brochure
           </a>
 
           <a
